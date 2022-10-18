@@ -14,5 +14,6 @@ if (shallowEqual(deps, prevState.deps)) {
 }
     prevState.callback = callback;
     prevState.deps = deps;
+    // useMeno почти также
     return callback;
 }
